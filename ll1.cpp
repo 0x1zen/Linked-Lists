@@ -53,13 +53,13 @@ void insertAtTail(Node* &tail, Node* &head, int data) {
     }
 }
 
-void createTail(Node* &head,Node* &tail){
-    Node* temp=head;
-    while(temp->next!=NULL){
-        temp=temp->next;
-    }
-    tail=temp;
-}
+// void createTail(Node* &head,Node* &tail){
+//     Node* temp=head;
+//     while(temp->next!=NULL){
+//         temp=temp->next;
+//     }
+//     tail=temp;
+// }
 
 int getLength(Node* &head){
     Node* temp=head;
@@ -106,6 +106,11 @@ int main()
 {
     Node* head=NULL;
     Node* tail=NULL;
+    // insertAtHead(head,tail,10);
+    // insertAtHead(head,tail,20);
+    // insertAtHead(head,tail,30);
+    // insertAtHead(head,tail,50);
+
     insertAtTail(tail,head,10);
     insertAtTail(tail,head,20);
     insertAtTail(tail,head,30);
