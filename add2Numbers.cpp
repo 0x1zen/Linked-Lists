@@ -15,11 +15,7 @@ public:
         int carry=0;
         while(t1!=nullptr || t2!=nullptr){
             int sum=carry;
-            if (t1) sum=t1->val+sum;
-            if(t2) sum=t2->val+sum;
-            ListNode* newNode=new ListNode(sum%10);
-            carry=sum/10;
-            current->next=newNode;
+            if (t1) sum=t1->vaNULLode;
             current=current->next;
             if(t1) t1=t1->next;
             if(t2) t2=t2->next;
